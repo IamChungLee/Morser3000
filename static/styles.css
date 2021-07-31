@@ -1,0 +1,32 @@
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80");
+    text-align: center;
+}
+
+#page-wrap {
+     margin: 0 500px;
+     width: 800px;
+}
+
+h1 {
+    font-family: 'Gowun Batang', 'Montserrat', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Gowun Batang', 'Montserrat', serif;
+}
+
+p{
+    font-family: 'Montserrat', serif;
+
+}
+
+.morse {
+    color: black;
+}
+
+.form {
+        font-family: 'Montserrat', serif;
+}

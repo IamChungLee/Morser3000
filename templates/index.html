@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='styles.css')}}" rel="stylesheet">
+
+    {% import "bootstrap/wtf.html" as wtf %}
+    <title>Morser3000</title>
+</head>
+<body>
+    <div id="page_wrap">
+        <h1>Welcome to Morser3000!</h1>
+        <h2>Translate your message into International Morse Code.</h2>
+        <div class="form">
+            {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+        </div>
+        <div class="morse">
+            <h2>{{ code }}</h2>
+        </div>
+    </div>
+</body>
+</html>
