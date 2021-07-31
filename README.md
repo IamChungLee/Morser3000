@@ -1,2 +1,2 @@
 # Morser3000
-Built with Flask
+### This repository contains a Morse Code encoder that I build using Python Flask.
